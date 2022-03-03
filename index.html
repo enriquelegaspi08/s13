@@ -176,14 +176,36 @@
 								<label class="text-light" for="txtContact">Contact Number:</label>
 								<input id="txtContact" class="form-control" type="Number" name="inputNum" placeholder="+ 63 900 000 0000" required>
 							</div>
-							<div>
+							<div class="form-group">
 								<label class="text-light" for="txtMessage">Message:</label>
 								<textarea id="txtMessage" class="form-control" placeholder="Message" rows="5"></textarea>
 							</div>
 							<div>
-								<button class="form-group btn btn-dark mt-3" id="btnSubmit" type="submit" data-toggle="modal" data-target="#exampleModal">Send Message</button>
+								<button class="form-group btn btn-dark mt-3" id="btnSubmit" type="submit" data-toggle="modal" data-target="#messageModal">Send Message</button>
 							</div>
 						</form>
+
+						<!-- Modal Start -->
+						<div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel1" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 id="messageModalLabel1" class="modal-title">Message Successfully Sent</h3>
+										<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h6>Thank you for contacting us!</h6>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- enf of Modal -->
+
 					</div>
 					<div class="col-12 col-sm-6 order-1 order-sm-2 p-5">
 						<iframe id="gmap-canvas" 
