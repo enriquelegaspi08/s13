@@ -1,0 +1,67 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navbarSection {
+	background-color: ;
+	font-weight: bold;
+}
+
+#eolLogo {
+	width: 220px;
+	height: 45px;
+}
+
+#mainContent {
+	background-color: ;
+}
+
+#carouselSection {
+	background-color: #050505;
+}
+
+#aboutMe {
+	font: helvetica;
+}
+
+#btnSubmit {
+	margin-top: 1rem;
+	color: #FAE8CF;
+	font-weight: bold;
+	background-color: #6E0A24;
+	border-radius: 25px;
+	font-size: 1rem;
+}
+
+#footer {
+	padding: 1rem;
+	text-align: center;
+	background-color: ;
+	color: ;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+h2 {
+	background-color: #6E0A24;
+	color: wheat;
+}
+
+.myprojectsImg {
+	width: 300px;
+	height: 300px;
+}
+
+.carousel-caption {
+	padding: 0;
+	border-radius: 5px;
+	background-color: #6E0A24;
+	color: wheat;
+}

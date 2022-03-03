@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- bootstrap CSS -->
+	<link 	rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+			crossorigin="anonymous">
+
+	<!-- external CSS -->
+	<link rel="stylesheet" href="./index.css">
+
+	<title>My Portfolio</title>
+
+</head>
+<body>
+	
+		<!-- navbar -->
+		<div>
+			<nav class="navbar navbar-expand-md navbar-light" id="navbarSection">
+	  			<a class="navbar-brand" href="#">
+	    			<img src="./images/eol logo.png" alt="eol logo" id="eolLogo" class="rounded">
+	  			</a>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#mainContent">Home</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#aboutMe">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#myProjects">Projects</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#contactMe">Contact</a>
+				      </li>
+				    </ul>
+				</div>
+
+			</nav>
+		</div>
+		<!-- end of navbar -->
+
+		<div class="container-fluid" id="mainContent">
+
+			<!-- carousel section -->
+			<div class="row mb-4 d-none d-md-block" id="carouselSection">
+				<div class="col-12 col-md-8 mx-auto">
+					<div id="carouselSlides" class="carousel slide carousel-left" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="carouselSlides" data-slide-to="0" class="active"></li>
+							<li data-target="carouselSlides" data-slide-to="1"></li>
+							<li data-target="carouselSlides" data-slide-to="2"></li>
+							<li data-target="carouselSlides" data-slide-to="3"></li>
+							<li data-target="carouselSlides" data-slide-to="3"></li>
+						</ol>
+					  	<div class="carousel-inner">
+						    <div class="carousel-item active">
+						        <img src="./images/project1.jpg" class="d-block w-100 rounded" alt="...">
+						        <div class="carousel-caption d-none d-md-block">
+									<h3 class="font-weight-bolder">My First Project</h3>
+									<h5 class="font-weight-bolder" >Keta's Tambayan</h5>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      	<img src="./images/project2.jpg" class="d-block w-100 rounded" alt="...">
+						      	<div class="carousel-caption d-none d-md-block">
+									<h3 class="font-weight-bolder">My Second Project</h3>
+									<h5 class="font-weight-bolder">Jordan's Store</h5>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      	<img src="./images/carousel3.jpg" class="d-block w-100 rounded" alt="...">
+						      	<div class="carousel-caption d-none d-md-block">
+									<h3 class="font-weight-bolder">Accenture</h3>
+									<h5 class="font-weight-bolder">Project Hataw 2</h5>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      	<img src="./images/carousel2.jpg" class="d-block w-100 rounded" alt="...">
+						      	<div class="carousel-caption d-none d-md-block">
+									<h3 class="font-weight-bolder">Accenture</h3>
+									<h5 class="font-weight-bolder">Project Hataw 1 Champion</h5>
+								</div>
+						    </div>
+						    <div class="carousel-item">
+						      	<img src="./images/aboutMe1.jpg" class="d-block w-100 rounded" alt="...">
+						      	<div class="carousel-caption d-none d-md-block">
+									<h3 class="font-weight-bolder">Accenture</h3>
+									<h5 class="font-weight-bolder">Work-Life Balance</h5>
+								</div>
+						    </div>
+					  	</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carouselSlides" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+				  	</button>
+				  	<button class="carousel-control-next" type="button" data-target="#carouselSlides" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+				  	</button>
+			  	</div>
+			</div>
+			<!-- end of carousel -->
+
+			<!-- about me section -->
+			<div class="text-center mx-5 pt-2" id="aboutMe">
+				<h2>About Me</h2>
+				<div class="row mt-3 mb-4 p-2">
+					<div class="col-12 offset-lg-2 col-lg-4 order-2 order-lg-1">
+						<div class="text-justify">
+							<h3>My college  years as a Computer Science student,</h3>
+							<p class="pt-2">I graduated from Technological University of the Philippines back in 2009 with a degree in Bachelor of Science in Computing major in Computer Science. I had my internship at IVANT Technologies where we created software and website applications to different companies. However, I was not able to pursue on my career as a computer programmer and took a different path with a BPO company.</p>
+						</div>
+						<div class="text-justify">
+							<h3>My career outside of the Information Technology industry,</h3>
+							<p class="pt-2">I worked with Accenture, Inc., for five years where I was able to highlight my skills, meet different people with different personalities and accomplish every task assigned to me professionally, objectively and with open-mindedness. I became a trainer and was even sent to India to train people there as a part of the expansion of our department. I then became a team leader and a mentor for teams from Philippines and India. My experience with Accenture, Inc. had been truly fruitful, wide and varied.</p>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4 order-1 order-lg-2">
+						<div>
+							<img src="./images/aboutMe1.jpg" alt="my pic" class="img-fluid" id="aboutMePic">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end of about me -->
+
+			<!-- projects section -->
+			<div class="text-center mx-5" id="myProjects">
+				<h2>My Projects</h2>
+				<div class="row">
+					<div class="col-12 col-lg-4 p-5">
+						<img src="./images/project1.jpg" alt="keta's tambayan" class="myprojectsImg img-fluid rounded-circle mb-3">
+						<h3>Keta's Tambayan</h3>
+						<p class="text-justify">A quick go to online site for the different offers of the town's hippest food house with high commendation of their Bento Boxes. Bento boxes are the new cool in Asia and among those communities who love to relish on home-cooked meals. Bento boxes are quite popular in Taiwan, Korea, and Japan. However, modern western societies too love the concept of these healthy bento boxes that they serve it to the guests during special occasions. Especially for kids parties and Asian meetups, bento boxes are trending.</p>
+					</div>
+					<div class="col-12 col-lg-4 p-5">
+						<img src="./images/project2.jpg" alt="jordans store" class="myprojectsImg img-fluid rounded-circle mb-3">
+						<h3>Jordan's Store</h3>
+						<p class="text-justify">A simple website featuring the different designs of Air Jordan shoes with descriptions such as the following, Designer Tinker Hatfield ensured that Michael Jordan would remain with Nike with this pair of shoes. The jumpman logo was introduced on this shoe. Jordan won the 1988 Slam Dunk Contest while wearing these shoes. An F-22 Fighter Jet inspired D'Wayne Edwards in designing this shoe. The camouflage sole and titanium-coated shank plate were major selling points. It was also available with different player editions.</p>
+					</div>
+					<div class="col-12 col-lg-4 p-5">
+						<img src="./images/project3.jpg" alt="my capstone" class="myprojectsImg img-fluid rounded-circle mb-3">
+						<h3>Capstone 1</h3>
+						<p>A walkthrough of my very own portfolio with a short description of myself and my projects. Ever since the invention of Charles Babbage’s difference engine in 1822, computers have required a means of instructing them to perform a specific task. This means is known as a programming language. Computer languages were first composed of a series of steps to wire a particular program; these morphed into a series of steps keyed into the computer and then executed; later these languages acquired advanced features such as logical branching and object orientation.</p>
+					</div>
+				</div>
+			</div>
+			<!-- end of projects -->
+
+			<!-- contact me section -->
+			<div class="text-center mx-5" id="contactMe">
+				<h2>Contact Me</h2>
+				<div class="row text-left">					
+					<div class="col-12 col-sm-6 order-2 order-sm-1 p-5">
+						<form class="col-12 offset-sm-2 col-sm-8 bg-secondary p-3 rounded">
+							<div class="form-group">
+								<label class="text-light" for="name">Name:</label>
+								<input type="text" id="name" class="form-control" placeholder="Your Name" required>
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="txtEmail">Email:</label>
+								<input type="email" id="txtEmail" class="form-control" placeholder="name@example.com" required>
+							</div>
+							<div class="form-group">
+								<label class="text-light" for="txtContact">Contact Number:</label>
+								<input id="txtContact" class="form-control" type="Number" name="inputNum" placeholder="+ 63 900 000 0000" required>
+							</div>
+							<div>
+								<label class="text-light" for="txtMessage">Message:</label>
+								<textarea id="txtMessage" class="form-control" placeholder="Message" rows="5"></textarea>
+							</div>
+							<div>
+								<button class="form-group btn btn-dark mt-3" id="btnSubmit" type="submit" data-toggle="modal" data-target="#exampleModal">Send Message</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-12 col-sm-6 order-1 order-sm-2 p-5">
+						<iframe id="gmap-canvas" 
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4100409860735!2d121.04148921535196!3d14.632650280212076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn%20Building%2C%20134%20Timog%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1645688924586!5m2!1sen!2sph"
+							width="600" 
+							height="450" 
+							style="border:0;" 
+							allowfullscreen="" 
+							loading="lazy">
+						</iframe>
+					</div>
+				</div>
+			</div>
+			<!-- end of contact me -->
+
+		</div>	
+
+		<!-- footer -->
+		<section id="footer">
+			<div class="row">
+				<div class="col"></div>
+				<div class="col">
+					<div class="d-flex flex-column justify-content-center">
+						<span>Home</span>
+						<span>About</span>
+						<span>Features</span>
+						<span>Pricing</span>
+						<span>Contact us</span>
+					</div>												
+				</div>
+				<div class="col">
+					<div class="d-flex flex-column justify-content-center">
+						<span>Blog</span>
+						<span>Search</span>
+						<span>T & Cs</span>
+						<span>Privacy</span>
+						<span>Community</span>
+					</div>						
+				</div>
+				<div class="col"></div>
+			</div>
+			<img src="./images/eol logo.png" alt="eol logo" id="eolLogo" class="rounded">
+		</section>
+		<!-- enf of footer -->
+
+	<!-- js dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	 		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+	 		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+	 		crossorigin="anonymous"></script>
+
+</body>
+</html>
