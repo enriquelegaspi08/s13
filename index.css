@@ -10,13 +10,21 @@ body{
 }
 
 #navbarSection {
+	color: #04A5D3;
 	background-color: ;
 	font-weight: bold;
+	padding-bottom: 10px;
 }
 
 #eolLogo {
 	width: 220px;
 	height: 45px;
+}
+
+#landing {
+	background-image: url("./images/landingBG1.jpg");
+	height: 650px;
+	color: white;
 }
 
 #mainContent {
@@ -29,15 +37,24 @@ body{
 
 #aboutMe {
 	font: helvetica;
+	padding: 25px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 #btnSubmit {
 	margin-top: 1rem;
 	color: #FAE8CF;
 	font-weight: bold;
-	background-color: #6E0A24;
 	border-radius: 25px;
 	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+#contactMe {
+	background-image: url("./images/contactBG.jpg");
+	height: auto;
+	color: white;
 }
 
 #footer {
@@ -49,9 +66,10 @@ body{
 	padding-top: 1rem;
 }
 
-h2 {
-	background-color: #6E0A24;
-	color: wheat;
+#mainContent h1 {
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .myprojectsImg {
@@ -62,6 +80,14 @@ h2 {
 .carousel-caption {
 	padding: 0;
 	border-radius: 5px;
-	background-color: #A7A3A1;
 	color: #000000;
+}
+
+#landing button {
+	margin-top: 1rem;
+	color: #FAE8CF;
+	font-weight: bold;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 0.75rem;
 }
